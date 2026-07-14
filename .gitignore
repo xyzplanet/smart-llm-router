@@ -1,0 +1,37 @@
+# ==========================================
+# Local Backup & Temporary Files
+# ==========================================
+# Specific backup scripts
+llm_01.py
+llm_02.py
+
+# Pattern matching for sequential/backup iterations
+*_01.py
+*_02.py
+*_backup.py
+*.bak
+*~
+
+# ==========================================
+# Python Environment & Cache (Recommended)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+official_install.sh
+.env.example
+
+# ==========================================
+# Local Backup & Temporary Files
+# ==========================================
+# Application logs
+*.log
+ollama.log
+
+# Vim swap and backup files
+.*.swp
+.*.swo
+....vscode/
